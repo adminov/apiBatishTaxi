@@ -23,31 +23,31 @@ export const colors = {
     grey7:  "#F2f9f9",
     grey10: "#d6d6d6",
     CardComment : '#86939e',
-    cardbackground:"white",
+    cardbackground:"#ffffff",
     statusbar:"#ff8c52",
-    heaherText:"white",
+    heaherText:"#ffffff",
     lightgreen: '#66DF48',
     blue:'#286ef0',
     black: "#000000",
     white: "#ffffff",
     darkBlue:"#2d328a",
-    pagebackground:"white"
+    pagebackground: "#ffffff"
 
-    
+
 
 }
 
 
 export const parameters ={
-    statusBarHeight :getStatusBarHeight(),
-    headerHeight:70,
+    statusBarHeight : getStatusBarHeight(),
+    headerHeight: 60,
 
     styledButton:{
         backgroundColor:"#ff8c52",
         alignContent:"center",
         justifyContent:"center",
         borderRadius:12,
-        borderWidth:1, 
+        borderWidth:1,
         borderColor:"#ff8c52",
         height:50,
         paddingHorizontal:20,
@@ -56,11 +56,11 @@ export const parameters ={
 
     buttonTitle:{
         color:"white",
-        fontSize:20,  
+        fontSize:20,
         fontWeight:"bold" ,
         alignItems:"center",
         justifyContent:"center"  ,
-        marginTop:-3 
+        marginTop:-3
     }
 }
 

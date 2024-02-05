@@ -21,10 +21,26 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.batish.apibatishtaxi"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiYmF0aXNodGF4aSIsImEiOiJjbHJ5Z3J6bWoxOTQzMmpteGxxNzdybmNiIn0.L6OCUZKOOJ4Du1uoUGDsGQ"
+        }
+      ],
+      ["expo-camera"]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4fc1b31e-c560-4996-b492-9dc35464d5f2"
+      }
+    },
+    "owner": "batish"
   }
 }
